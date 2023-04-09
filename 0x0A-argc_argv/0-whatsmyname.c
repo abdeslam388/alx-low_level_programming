@@ -7,7 +7,7 @@
  * @argv: pointure array of argc
  * Return: always 0 mean seccuses
  */
-int main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
 	printf("%s\n", *argv);
 
